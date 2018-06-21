@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_month"
+            android:icon="@drawable/ic_house"
+            android:title="@string/nav_month" />
+        <item
+            android:id="@+id/nav_memory"
+            android:icon="@drawable/ic_album"
+            android:title="@string/nav_memory" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/nav_map" />
+        <item
+            android:id="@+id/nav_folder"
+            android:icon="@drawable/ic_folder"
+            android:title="@string/nav_folder" />
+    </group>
+</menu>

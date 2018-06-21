@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.CreateNewMovieActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_create_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="enterAlways">
+
+            <RelativeLayout
+                android:id="@+id/title_container"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageButton
+                    android:id="@+id/btn_close_edit_movie"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_close_black_24dp" />
+
+                <TextView
+                    android:id="@+id/txt_edit_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@id/btn_close_edit_movie"
+                    android:text="Edit"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_edit_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_alignParentEnd="true"
+                    android:alpha="0"
+                    android:background="?attr/selectableItemBackground"
+                    android:enabled="false"
+                    android:text="Save"
+                    android:textColor="@color/colorAccentMovie"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/edit_movie_tool_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_open_with_black_24dp" />
+
+                    <ImageButton
+                        android:id="@+id/btn_edit_movie_filter"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_palette_black_24dp" />
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_music_note_black_24dp" />
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_more_vert_black_24dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4" />
+                </LinearLayout>
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcvEditMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.NestedScrollView>
+        <RelativeLayout
+            android:id="@+id/edit_filter_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabEditPlay"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_play_arrow_white_24dp"
+        app:layout_anchor="@id/collapsing_toolbar"
+        app:layout_anchorGravity="bottom|end" />
+</android.support.design.widget.CoordinatorLayout>

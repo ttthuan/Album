@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbSize">120dp</dimen>
+<dimen name="fab_edit">67dp</dimen>
+    <dimen name="fab_play">135dp</dimen>
+</resources>

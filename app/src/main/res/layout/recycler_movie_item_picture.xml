@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_chosen">
+
+    <ImageView
+        android:id="@+id/rawImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:background="@android:color/black" />
+
+    <RelativeLayout
+        android:id="@+id/checkedLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/ic_check_circle_bg"
+            android:src="@drawable/ic_check_circle_movie_24dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

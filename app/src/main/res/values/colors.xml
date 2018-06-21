@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fc7b2d</color>
+    <color name="colorPrimaryDarkAlpha30">#50303f9f</color>
+    <color name="colorAccentAlpha30">#895356a6</color>
+    <color name="colorTextPrimary">#292929</color>
+    <color name="colorHFShadow">#9c000000</color>
+    <color name="colorHFShadowDark">#bd000000</color>
+    <color name="colorHFShadowWhite">#68ffffff</color>
+    <color name="colorTextImage">#ffffff</color>
+    <color name="colorTextNavigationBar">#424242</color>
+    <color name="colorTextSelectedNavigationBar">#9e9e9e</color>
+    <color name="colorBackgroundRecycleMonth">#ffffff</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorNav">#e6ffffff</color>
+    <color name="colorFolder">#fb8c00</color>
+    <color name="colorFolderDark">#e65100</color>
+
+    <color name="colorAccentMovie">#fc7b2d</color>
+    <color name="colorAccentMovieLight">#ffab91</color>
+
+    <!--color filter-->
+    <color name="colorFilter1">#42ffffff</color>
+    <color name="colorFilter2">#2cb0fcff</color>
+    <color name="colorFilter3">#45ffffff</color>
+    <color name="colorFilter4">#45c67a4e</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackOpacity">#b2000000</color>
+    <color name="colorBlue">#2952da</color>
+
+    <!--color fab-->
+    <color name="fabClose">#fc7b2d</color>
+    <color name="fabOpen">#ff9f64</color>
+
+    <!--color filter-->
+    <color name="backgroundTransparent">#00000000</color>
+    <color name="backgroundSelected">#3f51b5</color>
+
+    <color name="dialogDivider">#dcdcdc</color>
+    <color name="dialogButton">#eaeaea</color>
+    <color name="dialogText">#616161</color>
+    <color name="dialogBackground">#9c000000</color>
+
+    <color name="colorTextHolderItemBg">#6c6c6c</color>
+</resources>

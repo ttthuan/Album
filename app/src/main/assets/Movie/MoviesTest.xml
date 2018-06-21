@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Movies>
+    <Movie>
+        <Name>Movie 1</Name>
+        <Title>Spring Morning</Title>
+        <SubTitle>May, 2018</SubTitle>
+        <Sound>1</Sound>
+        <TextHolder>1</TextHolder>
+        <ListImagePath>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135812670.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135805732.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1521921322375.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135794291.jpg</Image>
+        </ListImagePath>
+    </Movie>
+    <Movie>
+        <Name>Movie 2</Name>
+        <Title>Autumn View</Title>
+        <SubTitle>October, 2018</SubTitle>
+        <Sound>2</Sound>
+        <TextHolder>4</TextHolder>
+        <ListImagePath>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135805732.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1521921322375.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135794291.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135812670.jpg</Image>
+        </ListImagePath>
+    </Movie>
+    <Movie>
+        <Name>Movie 3</Name>
+        <Title>Summer Afternoon</Title>
+        <SubTitle>July, 2018</SubTitle>
+        <Sound>3</Sound>
+        <TextHolder>3</TextHolder>
+        <ListImagePath>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135794291.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135812670.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1522135805732.jpg</Image>
+            <Image>/storage/emulated/0/DCIM/Facebook/FB_IMG_1521921322375.jpg</Image>
+        </ListImagePath>
+    </Movie>
+</Movies>

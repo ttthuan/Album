@@ -1,19 +1,19 @@
 # Album
-Album app for android
+Ứng dụng album ảnh
 
-# Screen view list image folow month-year.
+# Danh sách ảnh theo tháng năm.
 ![list image folow month-year](https://drive.google.com/uc?id=1QOA6YGKzrJuIVslMJ65fvXBECw2uhgg3)
 
-# Screen view list image folow folder.
+# Danh sách ảnh theo folder.
 ![list image folow month-year](https://drive.google.com/uc?id=18j6EcCNnXD9ozy_ZYNMALWGgOhI3sjLx)
 
-# Screen view list image in a item folder or month-year.
+# Danh sách ảnh trong 1 folder.
 ![list image folow month-year](https://drive.google.com/uc?id=1nAMjQcQnBaPx3TreWB7g2wDJv6g4WUB-)
 
-# Screen view image on map.
+# Danh sách ảnh trên map.
 ![list image folow month-year](https://drive.google.com/uc?id=1pDgqzVnyN4aF2bu3RPiwnF_nfCLbNDws)
 
-# Screen view edit image.
+# Màn hình chi tiết và chỉnh sửa ảnh.
 ![list image folow month-year](https://drive.google.com/uc?id=1b9YXJlSubzu2D_hvH4r2ED6dmkX46m9C)
 
 ![list image folow month-year](https://drive.google.com/uc?id=1p9wEd98YOG_Ni0DdBhA5k4YM-DcNIp9s)

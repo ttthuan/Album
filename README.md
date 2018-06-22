@@ -1,5 +1,6 @@
 # Album
 Ứng dụng album ảnh
+Được viết cho nền tảng android
 
 # Danh sách ảnh theo tháng năm.
 ![list image folow month-year](https://drive.google.com/uc?id=1QOA6YGKzrJuIVslMJ65fvXBECw2uhgg3)
